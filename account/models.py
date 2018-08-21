@@ -57,6 +57,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin): #AbstractBaseUser has djan
     def get_short_name (self):
         return self.first_name
 
+
     def __str__ (self):
         return self.email
 
